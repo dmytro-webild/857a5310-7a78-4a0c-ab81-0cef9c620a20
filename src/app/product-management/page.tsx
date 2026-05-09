@@ -24,11 +24,13 @@ export default function ProductManagement() {
 
   return (
     <ThemeProvider>
-      <NavbarStyleCentered navItems={[{name: "Home", id: "/"}, {name: "Dashboard", id: "/product-management"}]} brandName="E-Store" />
+      <div id="nav" data-section="nav">
+        <NavbarStyleCentered navItems={[{name: "Home", id: "/"}, {name: "Dashboard", id: "/product-management"}]} brandName="E-Store" />
+      </div>
       <div className="container mx-auto py-20 px-4">
         <h1 className="text-3xl font-bold mb-8">Product Management Dashboard</h1>
         <form onSubmit={handleSubmit} className="max-w-md space-y-4">
-          {error && <p className="text-red-500">{error}</p> 
+          {error && <p className="text-red-500">{error}</p>}
           <Input value={name} onChange={setName} placeholder="Product Name" required />
           <Input value={price} onChange={setPrice} placeholder="Price ($)" required />
           <Input value={image} onChange={setImage} placeholder="Image URL" required />
