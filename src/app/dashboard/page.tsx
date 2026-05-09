@@ -27,9 +27,8 @@ export default function DashboardPage() {
             navItems={[
               { name: "Home", id: "/" },
               { name: "Dashboard", id: "/dashboard" },
-              { name: "Contact", id: "/contact" },
             ]}
-            brandName="E-Store Admin"
+            brandName="novamart"
           />
         </div>
 
@@ -70,7 +69,7 @@ export default function DashboardPage() {
             columns={[
               { items: [{ label: "Catalog", href: "#" }, { label: "Settings", href: "#" }] }
             ]}
-            logoText="E-Store"
+            logoText="novamart"
           />
         </div>
       </ReactLenis>

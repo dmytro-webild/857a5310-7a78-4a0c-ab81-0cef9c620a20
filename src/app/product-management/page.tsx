@@ -36,7 +36,7 @@ export default function ProductManagement() {
       headingFontWeight="normal"
     >
       <div id="nav" data-section="nav">
-        <NavbarStyleCentered navItems={[{name: "Home", id: "/"}, {name: "Dashboard", id: "/product-management"}]} brandName="E-Store" />
+        <NavbarStyleCentered navItems={[{name: "Home", id: "/"}, {name: "Dashboard", id: "/product-management"}]} brandName="novamart" />
       </div>
       <div className="container mx-auto py-20 px-4">
         <h1 className="text-3xl font-bold mb-8">Product Management Dashboard</h1>
