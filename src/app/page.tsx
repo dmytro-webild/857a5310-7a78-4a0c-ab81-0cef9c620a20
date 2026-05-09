@@ -43,9 +43,9 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "contact"},
         {
-          name: "Dashboard",          id: "/product-management"},
+          name: "Dashboard",          id: "/dashboard"},
       ]}
-      brandName="E-Store"
+      brandName="novamart"
     />
   </div>
 
@@ -54,7 +54,7 @@ export default function LandingPage() {
       background={{
         variant: "sparkles-gradient"}}
       title="Elevate Your Lifestyle"
-      description="Discover curated collections designed for modern living. Quality, style, and innovation in every detail."
+      description="Discover curated collections designed for modern living. Quality, style, and innovation in every detail. Ready to set up your store? Connect your domain in Settings {'>'} Domain Management to get started!"
       buttons={[
         {
           text: "Shop Now",          href: "#products"},
@@ -69,7 +69,7 @@ export default function LandingPage() {
         {
           src: "http://img.b2bpic.net/free-photo/young-beautiful-brunette-woman-wearing-casual-sweater-standing-red-background-pointing-fingers-camera-with-happy-funny-face-good-energy-vibes_839833-6469.jpg",          alt: "Customer profile 3"},
         {
-          src: "http://img.b2bpic.net/free-photo/close-up-young-businesswoman_23-2149153829.jpg",          alt: "Customer profile 4"},
+          src: "http://img.b2bpic.net/close-up-young-businesswoman_23-2149153829.jpg",          alt: "Customer profile 4"},
         {
           src: "http://img.b2bpic.net/free-photo/smart-man_1098-14700.jpg",          alt: "Customer profile 5"},
       ]}
@@ -257,7 +257,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      logoText="E-Store"
+      logoText="novamart"
     />
   </div>
       </ReactLenis>
