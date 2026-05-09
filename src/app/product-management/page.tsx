@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import { NavbarStyleCentered } from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
+import NavbarStyleCentered from "@/components/navbar/NavbarStyleCentered/NavbarStyleCentered";
 import Input from "@/components/form/Input";
 
 export default function ProductManagement() {
@@ -23,7 +23,18 @@ export default function ProductManagement() {
   };
 
   return (
-    <ThemeProvider>
+    <ThemeProvider
+      defaultButtonVariant="text-stagger"
+      defaultTextAnimation="entrance-slide"
+      borderRadius="rounded"
+      contentWidth="medium"
+      sizing="medium"
+      background="circleGradient"
+      cardStyle="glass-elevated"
+      primaryButtonStyle="gradient"
+      secondaryButtonStyle="glass"
+      headingFontWeight="normal"
+    >
       <div id="nav" data-section="nav">
         <NavbarStyleCentered navItems={[{name: "Home", id: "/"}, {name: "Dashboard", id: "/product-management"}]} brandName="E-Store" />
       </div>
